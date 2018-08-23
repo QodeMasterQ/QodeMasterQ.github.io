@@ -1,0 +1,212 @@
+/* background
+color
+text-align
+text-decoration
+border-radius
+list-style
+font-size
+width
+height
+padding
+margin 
+float
+min-width
+display
+
+*/
+
+body {
+    background-color: rgb(100, 100, 173);
+}
+
+h2 , h3 {
+    font-family: 'Anton', sans-serif;
+}
+ h3 {
+     color: white;
+ }
+
+/* hero css*/
+
+.hero {
+    background-image: url("../images/bryant.jpg");
+    min-height: 700px;
+}
+
+.hero img {
+    border-radius: 500px;
+    width: 150px;
+    margin: -80px auto 0;
+}
+
+.hero li {
+    list-style: none;
+    display: inline;
+}
+.hero ul {
+    text-align: center;
+}
+.hero a {
+    color: white;
+    text-decoration: none;
+    background: #575793;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.heading { 
+    border: 2px solid rgb(100, 100, 173);
+    padding-top: 200px;
+    margin-top: 84px;
+    padding-bottom: 36px;
+    
+}
+
+.heading h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+.heading p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+/* nav css */
+.nav {
+    background-color: rgb(100, 100, 173);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 15px;
+}
+
+.nav li {
+    text-decoration: none;
+    padding-right: 20px;
+    display: inline;
+}
+
+.nav a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* about me css*/
+.me {
+    background-color: rgb(148, 147, 148);
+    color: white;
+    padding-bottom: 36px;
+}
+ 
+.me p {
+    margin-top: 40px;
+}
+
+.me blockquote {
+    font-style: italic;
+}
+
+.me a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: solid white;
+    padding: 10px;
+}
+
+/*projects css*/
+.projects {
+    background-color: rgb(197, 194, 197);
+}
+
+.projects img {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+}
+
+.project {
+    background-color: rgb(148, 147, 148);
+    border:2px solid rgb(100, 100, 173);
+    margin-bottom: 36px;
+}
+
+.project p {
+    margin-bottom: 36px;
+}
+
+.project-copy {
+    padding-bottom: 36px;
+}
+
+/* contact css*/
+.contact {
+    background-image: url("../images/jackson.jpg");
+    padding-bottom: 36px;
+}
+
+.contact h2 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+.contact ul {
+    padding: 0;
+}
+
+.contact li {
+    color: white;
+    text-align: center;
+    list-style: none;
+    display: inline;
+}
+
+.contact i {
+    padding-right: 12px;
+}
+
+/* bottom css */
+.bottom {
+    margin-top: 10px;
+}
+
+.bottom img {
+    border-radius: 500px;
+    width: 150px;
+    margin: -80px auto 0;
+}
+.bottom ul {
+    text-align: center;
+}
+
+.bottom li {
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+}
+.bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+/* projects*/
+
+.projects a {
+    color: white;
+    text-decoration: none;
+    border: solid white;
+    padding: 10px;
+}
+
+.logos {
+    background-color: rgb(100, 100, 173);
+}
